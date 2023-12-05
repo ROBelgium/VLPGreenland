@@ -4,6 +4,18 @@ This notebook (`beamforming.ipynb`) was used to estimate the location of the 202
 
 We provide scripts to download (`download.py`) and pre-process (`prep.py`) the seismograms. For beamforming in a heterogeneous Earth (interpolated LITHO1 ([https://igppweb.ucsd.edu/~gabi/litho1.0.html](https://igppweb.ucsd.edu/~gabi/litho1.0.html)) model), run `fmm.py` and `fmm_merge.py` to get ray-traced traveltimes.
 
+## Order of operations
+
+`download.py`: download seismograms
+
+`prep.py`: pre-process seismograms
+
+`fmm.py`: compute ray-traced traveltimes, which are temporarily saved. This uses the model files `lith01_10mHz.txt` and `lith01_15mHz.txt` to estimate a 10.88mHz model.
+
+`fmm_merge.py`: merge temporary saved traveltimes
+
+`beamforming.ipynb`: beamforming notebook
+
 ## Python requirements
 
 - Python
@@ -15,3 +27,4 @@ We provide scripts to download (`download.py`) and pre-process (`prep.py`) the s
 - cartopy (for maps)
 - geokernels (for distances on Earth)
 - cmcrameri (for colormaps)
+- mpi4py (for parallel pre-processing and ray-tracing)
