@@ -1,0 +1,9 @@
+*.swp
+*.pdf
+*.png
+*.svg
+*.bak
+*.mseed
+*.xml
+flist
+__pycache__/
