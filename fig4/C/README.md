@@ -1,6 +1,6 @@
 # Figure 4C: Three-component recording at II.BFO.10 (STS-6A)
 
-This folder contains the python code and shell script required to reproduce
+This folder contains the python code and a shell script to reproduce
 the content of subplot Fig. 4C in the manuscript.
 
 The following python modules are required for import:
