@@ -2,10 +2,18 @@
 
 Plot beams (in 100km bins) of the VLP signal around the globe.
 
-This code reads waveforms that were already sorted by distance (`waveforms_24.pt`). These are a by-product of the beamforming code (see `supplementary/...`).
+`download.py`: Download seismograms
+
+`prep.py`: Pre-process seismograms (instrument response correction, ...)
+
+`prep_moveout.ipynb`: Prepare distance-sorted waveforms file for plotting routine
+
+`plot_fig4B.py`: Computes distance-binned beams and plots waveforms.
 
 Python requirements:
 
 - numpy, scipy, matplotlib
 - pytorch
 - obspy
+- tqdm
+- geokernels
