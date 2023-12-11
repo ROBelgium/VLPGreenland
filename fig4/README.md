@@ -1,5 +1,7 @@
 # Figure 4: Very-Long-Period (VLP) characteristics
 
+![Fig4](fig4.png)
+
 This folder contains the information required to reproduce subplots Fig. 4A-D in the manuscript.
 
 `A\`: Ratio of Love- and Rayleigh-wave-energy
@@ -9,3 +11,5 @@ This folder contains the information required to reproduce subplots Fig. 4A-D in
 `C\`: Three-component recording at II.BFO.10 (STS-6A)
 
 `D\`: Vertical component spectrogram at DK.SCO
+
+`E\`: Synthetic seiche spectrogram

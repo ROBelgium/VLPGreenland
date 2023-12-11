@@ -1,5 +1,7 @@
 # Figure 1: Seismic source, tsunami observations and modeling
 
+![Fig1](fig1.png)
+
 This folder contains the information required to reproduce subplots Fig. 1A-G in the manuscript.
 
 `A\`: [one-sentence description]
