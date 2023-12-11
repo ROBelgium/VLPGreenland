@@ -1,6 +1,6 @@
 # Figure 3: Landslide seismic signal and modelling
 
-![Fig3](fig3.png)
+![Fig3](f3.png)
 
 This folder contains the information required to reproduce subplots Fig. 3A-F in the manuscript.
 

@@ -1,6 +1,6 @@
 # Figure 4: Very-Long-Period (VLP) characteristics
 
-![Fig4](fig4.png)
+![Fig4](f4.png)
 
 This folder contains the information required to reproduce subplots Fig. 4A-D in the manuscript.
 
