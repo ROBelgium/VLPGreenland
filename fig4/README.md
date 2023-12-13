@@ -1,8 +1,8 @@
 # Figure 4: Very-Long-Period (VLP) characteristics
 
-![Fig4](f4.png)
+<img src="f4.png" width="400" />
 
-This folder contains the information required to reproduce subplots Fig. 4A-D in the manuscript.
+This folder contains the information required to reproduce subplots Fig. 4A-E in the manuscript.
 
 `A\`: Ratio of Love- and Rayleigh-wave-energy
 
