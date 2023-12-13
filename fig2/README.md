@@ -2,18 +2,10 @@
 
 ![Fig2](f2.png)
 
-This folder contains the information required to reproduce subplots Fig. 2A-G in the manuscript.
+This folder contains the information required to reproduce subplots Fig. 2C,G in the manuscript.
 
-`A\`: [one-sentence description]
+`C\`: Glacier elevation change 1987 to 2018
 
-`B\`: [one-sentence description]
+`G\`: Landslide estimation from photogrammetry
 
-`C\`: [one-sentence description]
-
-`D\`: [one-sentence description]
-
-`E\`: [one-sentence description]
-
-`F\`: [one-sentence description]
-
-`G\`: [one-sentence description]
+The remaining subplots are annotated satellite images retrieved via [www.sentinel-hub.com](https://www.sentinel-hub.com) or photgraphs.
