@@ -1,6 +1,6 @@
 # Figure 2: Landslide observations
 
-![Fig2](f2.png)
+<img src="f2.png" width="400" />
 
 This folder contains the information required to reproduce subplots Fig. 2C,G in the manuscript.
 
