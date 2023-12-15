@@ -2,18 +2,12 @@
 
 ![Fig1](f1.png)
 
-This folder contains the information required to reproduce subplots Fig. 1A-G in the manuscript.
-
-`A\`: [one-sentence description]
-
-`B\`: [one-sentence description]
-
-`C\`: [one-sentence description]
-
-`D\`: [one-sentence description]
+This folder contains the information required to reproduce subplots Fig. 1E-G in the manuscript.
 
 `E\`: [one-sentence description]
 
 `F\`: [one-sentence description]
 
 `G\`: [one-sentence description]
+
+Subplot A is a standard map. B and C contain runups estimated from manual interpretation of Sentinel 2 satellite images ([sentinel-hub.com](https://sentinel-hub.com)). D is a photograph.
