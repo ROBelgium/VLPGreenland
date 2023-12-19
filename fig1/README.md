@@ -4,7 +4,7 @@
 
 This folder contains the information required to reproduce subplots Fig. 1E-G in the manuscript.
 
-`E\`: [Data from realtime subsea moooring from Greenland Integrated Observatory installed offshore Ella O research station. Data and metadata available via https://doi.org/10.14284/637]
+`E\`: [Data from realtime subsea moooring from Greenland Integrated Observatory installed offshore Ella Ø research station. Data and metadata available via https://doi.org/10.14284/637, description mooring via https://doi.org/10.1016/j.ohx.2022.e00331]
 
 `F\`: [one-sentence description]
 
