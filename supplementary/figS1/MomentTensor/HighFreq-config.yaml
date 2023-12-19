@@ -1,0 +1,134 @@
+--- !grond.Config
+path_prefix: ..
+rundir_template: ${problem_name}.grun
+dataset_config: !grond.DatasetConfig
+  stations_stationxml_paths:
+  - ../all.xml
+  events_path: event.pf
+  waveform_paths:
+  - ../waveforms_long/
+  responses_stationxml_paths:
+  - ../all.xml
+  extend_incomplete: false
+  picks_paths: []
+  blacklist_paths: []
+  blacklist:
+  - JMIC
+  - CLRN
+  - PL.HSPB..HHE
+  - PL.HSPB..HHN
+  whitelist_paths: []
+target_groups:
+- !grond.WaveformTargetGroup
+  normalisation_family: td
+  path: td.Z
+  weight: 1.0
+  interpolation: nearest_neighbor
+  store_id: my_first_gfs_hf
+  distance_min: 0.0
+  distance_max: 1500000.0
+  exclude: []
+  channels:
+  - Z
+  misfit_config: !grond.WaveformMisfitConfig
+    quantity: displacement
+    fmin: 0.04
+    fmax: 0.1
+    ffactor: 1.5
+    tmin: '{stored:begin}-60'
+    tmax: '{vel_surface:2.5}+60'
+    domain: time_domain
+    norm_exponent: 1
+    tautoshift_max: 5.0
+    autoshift_penalty_max: 0.05
+- !grond.WaveformTargetGroup
+  normalisation_family: td
+  path: td.R
+  weight: 1.0
+  interpolation: nearest_neighbor
+  store_id: my_first_gfs_hf
+  distance_min: 0.0
+  distance_max: 1500000.0
+  exclude: []
+  channels:
+  - R
+  misfit_config: !grond.WaveformMisfitConfig
+    quantity: displacement
+    fmin: 0.04
+    fmax: 0.1
+    ffactor: 1.5
+    tmin: '{stored:begin}-60'
+    tmax: '{vel_surface:2.5}+60'
+    domain: time_domain
+    norm_exponent: 1
+    tautoshift_max: 5.0
+    autoshift_penalty_max: 0.05
+- !grond.WaveformTargetGroup
+  normalisation_family: td
+  path: td.T
+  weight: 1.0
+  interpolation: nearest_neighbor
+  store_id: my_first_gfs_hf
+  distance_min: 0.0
+  distance_max: 1500000.0
+  exclude: []
+  channels:
+  - T
+  misfit_config: !grond.WaveformMisfitConfig
+    quantity: displacement
+    fmin: 0.04
+    fmax: 0.1
+    ffactor: 1.5
+    tmin: '{stored:begin}-60'
+    tmax: '{vel_surface:2.5}+60'
+    domain: time_domain
+    norm_exponent: 1
+    tautoshift_max: 5.0
+    autoshift_penalty_max: 0.05
+problem_config: !grond.CMTProblemConfig
+  name_template: cmt_${event_name}
+  norm_exponent: 1
+  ranges:
+    depth: 0 .. 5000
+    duration: 0 .. 40
+    east_shift: -150000 .. 150000
+    magnitude: 3 .. 7
+    north_shift: -150000 .. 150000
+    rmdd: -1.41421 .. 1.41421
+    rmed: -1 .. 1
+    rmee: -1.41421 .. 1.41421
+    rmnd: -1 .. 1
+    rmne: -1 .. 1
+    rmnn: -1.41421 .. 1.41421
+    time: -60 .. 60 | add
+  distance_min: 1000.0
+  mt_type: full
+  stf_type: HalfSinusoidSTF
+  nthreads: 1
+analyser_configs:
+- !grond.TargetBalancingAnalyserConfig
+  niterations: 2000
+  use_reference_magnitude: false
+optimiser_config: !grond.HighScoreOptimiserConfig
+  sampler_phases:
+  - !grond.UniformSamplerPhase
+    niterations: 4000
+    ntries_preconstrain_limit: 1000
+  - !grond.DirectedSamplerPhase
+    niterations: 100000
+    ntries_preconstrain_limit: 1000
+    scatter_scale_begin: 20.0
+    scatter_scale_end: 0.5
+    starting_point: excentricity_compensated
+    sampler_distribution: normal
+    standard_deviation_estimator: median_density_single_chain
+    ntries_sample_limit: 1000
+  chain_length_factor: 8.0
+  nbootstrap: 100
+engine_config: !grond.EngineConfig
+  gf_stores_from_pyrocko_config: false
+  gf_store_superdirs:
+  - ./
+  gf_store_dirs: []
+event_names: []
+event_names_exclude: []
