@@ -4,10 +4,10 @@
 
 This folder contains the information required to reproduce subplots Fig. 3A-F in the manuscript.
 
-`A\`: [one-sentence description]
+`B-E\`: Landslide force history from inversion
 
-`B-E\`: [one-sentence description]
+`F\`: Landslide trajectory from numerical model
 
-`F\`: [one-sentence description]
+`G\`: Infrasound beam
 
-`G\`: [one-sentence description]
+The landslide trajectories in Fig3A can be found in `B-E\` (landslide force history from inversion) and `F\` (landslide trajectory from numerical model).
