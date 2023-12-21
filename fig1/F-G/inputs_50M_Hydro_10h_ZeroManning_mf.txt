@@ -1,33 +1,33 @@
-HySEA 50M_Hydro_10h_ZeroManning_mf HYDRO
-0
-1
-/home/marboeuf/HySEA/Greenland/smoothedbathy/bathy_50m_PlusZeroPointSevenMeterWater.nc
-/home/marboeuf/HySEA/Greenland/smoothedbathy/bathymass_50m_PlusZeroPointSevenMeterWater.nc
-/home/marboeuf/TestGreenland_Paper/Simus/50M_Hydro_10h_ZeroManning_mf/OUTPUTS/HYSEA50M_Hydro_10h_ZeroManning_mf.out
-1 1 0 0 0 0 0 0 0 0 0
-1
-1
-1
-1
-1
-36000.1
-36000.0
-1
-/home/marboeuf/HySEA/Greenland/ts.dat
-1.0
-0.1
-0.01
-0.5
-1
-1.0
-0.5
-7.0 17.0 9.0
-0.00002
-0.0
-0
-0.0
-250
-250
-1000.0
-1000.0
-0.5
+HySEA 50M_Hydro_10h_ZeroManning_mf HYDRO # Name of the simulation
+0 # Hydro (0) or Non-hydro (1)
+1 # Initialize from functions (0) or initialize from file (1)
+/home/marboeuf/HySEA/Greenland/smoothedbathy/bathy_50m_PlusZeroPointSevenMeterWater.nc # Bathymetry file
+/home/marboeuf/HySEA/Greenland/smoothedbathy/bathymass_50m_PlusZeroPointSevenMeterWater.nc # Mass file = bathy + moving mass
+/home/marboeuf/TestGreenland_Paper/Simus/50M_Hydro_10h_ZeroManning_mf/OUTPUTS/HYSEA50M_Hydro_10h_ZeroManning_mf.out # Output name file
+1 1 0 0 0 0 0 0 0 0 0 # Output variables : No (0) or Yes (1)
+1 # Number of levels
+1 # Upper boundary condition: Open (1) or Close/wall (-1)
+1 # Lower boundary condition: Open (1) or Close/wall (-1)
+1 # Left boundary condition: Open (1) or Close/wall (-1)
+1 # Right boundary condition: Open (1) or Close/wall (-1)
+36000.1 # Time to simulate
+36000.0 # Output frequency
+1 # Gauge file : Yes (1) or No (0)
+/home/marboeuf/HySEA/Greenland/ts.dat # Gauge file name
+1.0 # Output frequency for gauge data
+0.1 # CFL
+0.01 # small parameter for smooth transition to zero in small water depth areas
+0.5 # Density ratio
+1 # Friction law: Pouliquen (0), mu(I) (1) or Coulomb (2)
+1.0 # Grain size parameter
+0.5 # Volumic fraction when mu(I) is used
+7.0 17.0 9.0 # Friction angles in the friction law
+0.00002 # Friction coefficient between the granular mass and the water
+0.0 # Friction coefficient between the granular mass and the bottom
+0 # Manning file: Yes (1) or No (0)
+0.0 # Manning coefficient (static) or Manning file
+250 # Maximum allowed water velocity 
+250 # Maximum allowed granular mass velocity
+1000.0 # Characteristic distance
+1000.0 # Characteristic depth
+0.5 # Threshold for computing arrival times
