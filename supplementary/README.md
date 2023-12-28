@@ -26,4 +26,6 @@ This folder contains the information required to reproduce most figures in the s
 
 `figS30/`: GPS time series
 
+`figS34/`: Simplified fjord geometry and Jupyter notebook
+
 Supplementary figures S5, S8, S29, and S31-33 are annotated satellite images (retrieved via [sentinel-hub.com](https://sentinel-hub.com) or photographs.
