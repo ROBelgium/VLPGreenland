@@ -1,4 +1,4 @@
-# Beamforming of the 2023-09-16 92s VLP event
+# Figure S1: Beamforming of the 2023-09-16 92s VLP event
 
 This notebook (`beamforming.ipynb`) was used to estimate the location of the 2023-09-16 92s VLP event using cross-correlation beamforming, and produce figure S_beamforming and the movie S1.
 

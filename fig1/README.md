@@ -2,7 +2,7 @@
 
 ![Fig1](f1.png)
 
-This folder contains the information required to reproduce subplots Fig. 1E-G in the manuscript.
+This folder contains the information required to reproduce Figure 1 in the manuscript.
 
 `C\`: Tsunami propagation model
 
@@ -10,4 +10,4 @@ This folder contains the information required to reproduce subplots Fig. 1E-G in
 
 `F-G\`: Dickson Fjord tide gauge and simulations (HySEA)
 
-Subplot A is a standard map. B contains runups estimated from manual interpretation of Sentinel 2 satellite images ([sentinel-hub.com](https://sentinel-hub.com)). D is a photograph.
+Subplot B contains runups estimated from manual interpretation of Sentinel 2 satellite images ([sentinel-hub.com](https://sentinel-hub.com)).

@@ -1,4 +1,4 @@
-# Fig 4B: Propagation of the VLP signal around the Earth
+# Figure 4B: Propagation of the VLP signal around the Earth
 
 Plot beams (in 100km bins) of the VLP signal around the globe.
 

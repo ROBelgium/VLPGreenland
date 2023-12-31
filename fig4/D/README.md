@@ -1,4 +1,4 @@
-# Vertical component spectrogram at DK.SCO
+# Figure 4D: Vertical component spectrogram at DK.SCO
 
 Computing 10 days long spectrograms for VLP signals in Greenland
 

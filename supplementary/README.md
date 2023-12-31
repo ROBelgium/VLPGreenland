@@ -2,7 +2,7 @@
 
 This folder contains the information required to reproduce most figures in the supplementary material to the manuscript. We provide code and material necessary for each figure seperately.
 
-`figS1/`: Beamforming of the VLP signal and map of all seismic source locations
+`figS1/`: Beamforming of the VLP signal, moment tensor inversion, and map of seismic source locations
 
 `figS2/`: Superconducting gravimeter spectrogram
 
@@ -26,6 +26,6 @@ This folder contains the information required to reproduce most figures in the s
 
 `figS30/`: GPS time series
 
-`figS34/`: Simplified fjord geometry and Jupyter notebook
+`figS34/`: Considerations for the dynamics of the VLP source
 
-Supplementary figures S5, S8, S29, and S31-33 are annotated satellite images (retrieved via [sentinel-hub.com](https://sentinel-hub.com) or photographs.
+Supplementary figures S5, S8, S29, and S31-33 are annotated satellite images (retrieved via [sentinel-hub.com](https://sentinel-hub.com)) and photographs.

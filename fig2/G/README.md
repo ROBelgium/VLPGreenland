@@ -1,4 +1,4 @@
-# Landslide estimation from photogrammetry
+# Figure 2G: Landslide estimation from photogrammetry
 
 Agisoft Metashape processing reports provide all of the parameters, the system information, and the software version used in Structure from Motion processing, as well as an overview of the survey geometry, ground control points, location errors, and model resolution.
 

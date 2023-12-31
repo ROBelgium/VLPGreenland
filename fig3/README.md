@@ -2,7 +2,7 @@
 
 ![Fig3](f3.png)
 
-This folder contains the information required to reproduce subplots Fig. 3A-F in the manuscript.
+This folder contains the information required to reproduce Figure 3 in the manuscript.
 
 `B-E\`: Landslide force history from inversion
 
