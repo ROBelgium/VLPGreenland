@@ -16,6 +16,6 @@ The repository follows the structure of the manuscript, where codes and/or instr
 
 `fig3\`: Landslide seismic signal and modelling
 
-`fig4\`: Very-Long-Period (VLP) characteristics
+`fig4\`: Very-Long-Period (VLP) seismic signal characteristics
 
 `supplementary\`: Figures in the supplementary materials.

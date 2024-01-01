@@ -1,4 +1,4 @@
-# Figure 4: Very-Long-Period (VLP) characteristics
+# Figure 4: Very-Long-Period (VLP) seismic signal characteristics
 
 <img align="left" src="f4.png" width="400px">
 
