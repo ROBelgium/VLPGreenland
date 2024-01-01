@@ -1,6 +1,6 @@
 # Figure 4: Very-Long-Period (VLP) characteristics
 
-<img src="f4.png" width="400" />
+<img align="left" src="f4.png" width="400px">
 
 This folder contains the information required to reproduce Figure 4 in the manuscript.
 
