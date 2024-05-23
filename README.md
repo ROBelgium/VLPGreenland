@@ -14,10 +14,12 @@ The repository follows the structure of the manuscript, where codes and/or instr
 
 `fig1\`: Seismic source, tsunami observations and modeling.
 
-`fig2\`: Landslide observations
+`fig2\`: Landslide observations.
 
-`fig3\`: Landslide seismic signal and modelling
+`fig3\`: Landslide seismic signal and modelling.
 
-`fig4\`: Very-Long-Period (VLP) seismic signal characteristics
+`fig4\`: Very-Long-Period (VLP) seismic signal characteristics.
 
 `supplementary\`: Figures in the supplementary materials.
+
+`bathymetry\`: Detailed bathymetry of the Kempe Fjord area.
