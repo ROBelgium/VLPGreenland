@@ -12,11 +12,11 @@ argparse, textwrap, obspy, matplotlib, numpy, scipy, dateutil, operator
 
 `plotdecay.py`: Python program to create time series diagrams.
 
-`modules/VLPtools.py`: Python module for application of response simulation
+`VLPtools.py`: Python module for application of response simulation
 filters.
 
-`modules/invresponse.py`: Python module to create terminal dump of obspy
+`invresponse.py`: Python module to create terminal dump of obspy
 inventory data.
 
-`modules/pazfilter.py`: Python module with various helpers to handle recursive
+`pazfilter.py`: Python module with various helpers to handle recursive
 time series filters.
