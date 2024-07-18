@@ -1,5 +1,5 @@
 #!/bin/sh
-# this is <pmplots1st.sh>
+# this is <polarizationplots.sh>
 # ----------------------------------------------------------------------------
 # 
 # Copyright (c) 2023 by Thomas Forbriger (KIT, GPI, BFO) 
@@ -32,7 +32,7 @@
 # ============================================================================
 #
 #
-VERSION=2023-12-01
+VERSION=2023-07-18
 
 # ----------------------------------------------------------------------------
 # download time series data and metadata
@@ -58,11 +58,11 @@ dodownload() {
 ##    --begin $BEGIN --end $END --outbase $CASEBASE \
 ##    --station ALE,BFO,BORG,KDAK R
 
-  dldata.py --network IU --location '00' \
+  ./dldata.py --network IU --location '00' \
     --begin $BEGIN --end $END --outbase $CASEBASE \
     --station KEV,SFJD R
  
-  dldata.py --network II --location '00' \
+  ./dldata.py --network II --location '00' \
     --begin $BEGIN --end $END --outbase $CASEBASE \
     --station ALE R
 }
@@ -140,4 +140,4 @@ doplot IU KONO
 doplot IU COLA
 doplot IU KBS
 
-# ----- END OF pmplots1st.sh ----- 
+# ----- END OF polarizationplots.sh ----- 

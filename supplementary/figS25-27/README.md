@@ -1,7 +1,7 @@
-# Figure S19-21: Polarisation analysis of VLP ground motion
+# Figure S25-27: Polarisation analysis of VLP ground motion
 
 This folder contains the python code and a shell script to reproduce
-the content of subplot Fig. 4C in the manuscript.
+the content of Figs. S25 to S27 in the supplementary material.
 
 The following python modules are required for import:
 argparse, textwrap, obspy, matplotlib, numpy, scipy, dateutil, operator
