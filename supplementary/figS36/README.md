@@ -1,4 +1,4 @@
-# Figure S34: Considerations for the dynamics of the VLP source
+# Figure S36: Considerations for the dynamics of the VLP source
 
 This computation shall check whether the force amplitude for the VLP source as
 inferred from teleseismic recordings would be consistent with the simulated
@@ -10,7 +10,7 @@ a potential source of the VLP signal' of the supplementary material.
 ### `FjordGeometry.py`
 
 Python script to create sketches of the simplified geometry of the fjord.
-One of the sketches is used in Fig. S34 in the supplementary material.
+One of the sketches is used in Fig. S36 in the supplementary material.
 
 Required python modules: numpy, matplotlib, copy
 
