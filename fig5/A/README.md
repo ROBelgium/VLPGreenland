@@ -1,4 +1,4 @@
-# Figure 4A: Ratio of Love- and Rayleigh-wave-energy (LOVE Factor)
+# Figure 5A: Ratio of Love- and Rayleigh-wave-energy (LOVE Factor)
 
 Estimate the Ratio of Love- and Rayleigh-wave-energy (the LOVE Factor) for high-quality broadband seismic stations.
 
