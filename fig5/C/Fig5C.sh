@@ -1,10 +1,10 @@
 #!/bin/sh
-# this is <Fig4C.sh>
+# this is <Fig5C.sh>
 # ----------------------------------------------------------------------------
 # 
 # Copyright (c) 2023 by Thomas Forbriger (KIT, GPI, BFO) 
 # 
-# create Fig 4C
+# create Fig 5C
 #
 # ----
 # Licensed under the EUPL, Version 1.1 or – as soon they
@@ -38,7 +38,7 @@ END=2023/09/19T12:00:00
 
 TSBASE=STS6BFO_long_20230916
 
-dldata.py --network II --location '10' \
+./dldata.py --network II --location '10' \
   --begin $BEGIN --end $END --outbase $TSBASE \
   --station BFO R
  
@@ -88,4 +88,4 @@ doZplot ${NETWORK} ${STATION} --inbase=${INBASE} --outbase=${OUTBASE}Z \
 
 evince ${OUTBASE}*.pdf
 
-# ----- END OF Fig4C.sh ----- 
+# ----- END OF Fig5C.sh ----- 

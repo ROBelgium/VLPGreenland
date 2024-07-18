@@ -30,8 +30,8 @@
 # 
 # ============================================================================
 #
-import modules.pazfilter as paz
-from modules.invresponse import dumpresp
+import pazfilter as paz
+from invresponse import dumpresp
 import numpy as np
 
 def groundmotion(stin, inv, f0, quantity="displacement", verbose=True):
