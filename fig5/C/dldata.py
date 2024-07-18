@@ -34,7 +34,7 @@ import argparse
 import textwrap
 from obspy.clients.fdsn import Client
 from obspy.core import UTCDateTime
-from modules.invresponse import dumpresp
+from invresponse import dumpresp
 
 # ============================================================================
 # define functions

@@ -36,8 +36,8 @@ import textwrap
 from obspy import read, read_inventory
 from obspy.clients.fdsn import Client
 from obspy.core import UTCDateTime
-from modules.invresponse import dumpresp
-from modules.VLPtools import groundmotion
+from invresponse import dumpresp
+from VLPtools import groundmotion
 from obspy.geodetics import gps2dist_azimuth
 from obspy.taup.taup_geo import calc_dist_azi
 import matplotlib.pyplot as plt
