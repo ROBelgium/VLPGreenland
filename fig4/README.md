@@ -4,12 +4,10 @@
 
 This folder contains the information required to reproduce Figure 4 in the manuscript.
 
-`A\`: Ratio of Love- and Rayleigh-wave-energy (LOVE Factor)
+`B\`: Tsunami propagation model
 
-`B\`: Propagation of the VLP signal around the Earth.
+`C\`: Ella Ø tide gauge and simulations
 
-`C\`: Three-component recording at II.BFO.10 (STS-6A)
+`D-E\`: Dickson Fjord tide gauge and simulations (HySEA)
 
-`D\`: Vertical component spectrogram at DK.SCO
-
-`E\`: Synthetic seiche spectrogram
+Subplot B contains runups estimated from manual interpretation of Sentinel 2 satellite images ([sentinel-hub.com](https://sentinel-hub.com)).

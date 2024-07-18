@@ -1,19 +1,15 @@
-# Figure 4B: Propagation of the VLP signal around the Earth
+# Figure 4B: Tsunami propagation model
 
-Plot beams (in 100km bins) of the VLP signal around the globe.
+GloBouss model (tsunami propagation) can be downloaded and installed from
+https://github.com/geirkp/geirkp.github.io/tree/master/bouss
+Manual: https://geirkp.github.io/SUP/globouss/index.html
 
-`download.py`: Download seismograms
+ComMIT (MOST) can be downloaded from (access needed)
+https://nctr.pmel.noaa.gov/ComMIT/
 
-`prep.py`: Pre-process seismograms (instrument response correction, ...)
+Box-shaped slide is created in folder sim/Box
 
-`prep_moveout.ipynb`: Prepare distance-sorted waveforms file for plotting routine
+Tsunami propagation with GloBouss is found in  sim/gglo (grids in grids/gglo). Including timeseries
 
-`plot_fig4B.py`: Computes distance-binned beams and plots waveforms.
+Runup at Ella Ø. is computed in sim/most (grids in data/most and propagation files from GloBouss)
 
-Python requirements:
-
-- numpy, scipy, matplotlib
-- pytorch
-- obspy
-- tqdm
-- geokernels

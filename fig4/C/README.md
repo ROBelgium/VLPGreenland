@@ -1,22 +1,5 @@
-# Figure 4C: Three-component recording at II.BFO.10 (STS-6A)
+# Figure 1E: Ella Ø tide gauge and simulations
 
-This folder contains the python code and a shell script to reproduce
-the content of subplot Fig. 4C in the manuscript.
+Data from realtime subsea moooring from Greenland Integrated Observatory installed offshore Ella Ø research station. Data and metadata available via [https://doi.org/10.14284/637](https://doi.org/10.14284/637), description mooring via [https://doi.org/10.1016/j.ohx.2022.e00331](https://doi.org/10.1016/j.ohx.2022.e00331)
 
-The following python modules are required for import:
-argparse, textwrap, obspy, matplotlib, numpy, scipy, dateutil, operator
-
-`Fig4C.sh`: Run this shell script to produce the diagram files.
-
-`dldata.py`: Python program to download time series and metadata.
-
-`plotdecay.py`: Python program to create time series diagrams.
-
-`modules/VLPtools.py`: Python module for application of response simulation
-filters.
-
-`modules/invresponse.py`: Python module to create terminal dump of obspy
-inventory data.
-
-`modules/pazfilter.py`: Python module with various helpers to handle recursive
-time series filters.
+See `fig1/C` for the lower panel of Fig1E (time history of surface elevation from GloBouss).
