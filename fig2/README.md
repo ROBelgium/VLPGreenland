@@ -1,6 +1,6 @@
 # Figure 2: Landslide observations
 
-<img align="left" src="f2.png" width="400px">
+<img align="left" src="fig2.png" width="400px">
 
 This folder contains the information required to reproduce Figure 2 in the manuscript.
 

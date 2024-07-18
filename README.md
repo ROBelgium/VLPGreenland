@@ -12,13 +12,15 @@ This repository contains codes used in our analysis and information required to 
 
 The repository follows the structure of the manuscript, where codes and/or instructions and data sources are provided for each figure and its subplots:
 
-`fig1\`: Seismic source, tsunami observations and modeling.
+`fig1\`: Seismic signal, position, and local setting
 
 `fig2\`: Landslide observations.
 
 `fig3\`: Landslide seismic signal and modelling.
 
-`fig4\`: Very-Long-Period (VLP) seismic signal characteristics.
+`fig4\`: Tsunami observations and modeling
+
+`fig5\`: VLP seismic signal and comparison with simulated seiche
 
 `supplementary\`: Figures in the supplementary materials.
 
