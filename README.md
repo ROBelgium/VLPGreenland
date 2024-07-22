@@ -25,3 +25,9 @@ The repository follows the structure of the manuscript, where codes and/or instr
 `supplementary\`: Figures in the supplementary materials.
 
 `bathymetry\`: Detailed bathymetry of the Kempe Fjord area.
+
+`seiche\`: input parameters and output time series for the HySEA tsunami simulation that shows a fjord seiche
+
+## Local tide gauge data
+
+CTD data are available from an associated repository: [https://www.vliz.be/nl/imis?dasid=8425&doiid=921](https://www.vliz.be/nl/imis?dasid=8425&doiid=921).
