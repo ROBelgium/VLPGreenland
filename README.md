@@ -4,7 +4,7 @@
 
 Abstract: Climate change is increasingly predisposing polar regions to large landslides. Tsunamigenic landslides have occurred recently in Greenland, but none have been reported from the eastern fjords. In  September 2023, we detected the start of an unprecedented up to 9-day-long global 10.88mHz (92s) monochromatic very-long period (VLP) seismic signal, originating from East Greenland. We demonstrate how this event started with a 25 M m3 glacial thinning-induced rockslide plunging into Dickson Fjord, triggering a 200 m high tsunami. Simulations show the tsunami stabilized into a 7 m-high long-duration seiche with a near-identical frequency (11.45mHz) and slow amplitude decay as the seismic signal. An oscillating, fjord-transverse single-force with a maximum amplitude of 5×1011 N reproduces the seismic amplitudes and their radiation pattern relative to the fjord, demonstrating how a seiche directly caused the 9-day long seismic signal. Our findings highlight how climate change is causing cascading, hazardous feedbacks between the cryosphere, hydrosphere and lithosphere.
 
-These results are submitted for publication and are currently in review.
+These results are published in Science ([doi:10.1126/science.adm9247](https://doi.org/10.1126/science.adm9247)).
 
 ## This repository
 
