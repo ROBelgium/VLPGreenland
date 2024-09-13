@@ -1,4 +1,4 @@
-# A rockslide-generated tsunami in a Greenland fjord rang the Earth for 9 days
+# A rockslide-generated tsunami in a Greenland fjord rang Earth for 9 days
 
 [![DOI](https://zenodo.org/badge/724008094.svg)](https://zenodo.org/doi/10.5281/zenodo.10449632)
 
